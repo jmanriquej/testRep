@@ -1,0 +1,377 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/animate.css/animate.css" />
+    <link rel="stylesheet" href="/bower_components/fullpage.js/jquery.fullPage.css" />
+    <link rel="stylesheet" href="/bower_components/normalize.css/normalize.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/font-awesome.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="servibarrasApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+
+
+<nav id="menu" class="menu">
+  <button class="menu__handle"><span>Menu</span></button>
+  <div class="menu__inner">
+    <ul>
+      <li><a href="#inicio" class="tooltip" data-tip="Inicio" ><i class="fa fa-home"></i><span><span></a></li>
+      <li><a href="#marketing" class="tooltip" data-tip="marketing" ><i class="fa fa-play-circle-o"></i><span><span></a></li>
+      <li><a href="#agencia" class="tooltip" data-tip="agencia" ><i class="fa fa-share-alt"></i><span><span></a></li>
+
+    </ul>
+  </div>
+  <div class="morph-shape" data-morph-open="M300-10c0,0,295,164,295,410c0,232-295,410-295,410" data-morph-close="M300-10C300-10,5,154,5,400c0,232,295,410,295,410">
+    <svg width="100%" height="100%" viewBox="0 0 600 800" preserveAspectRatio="none">
+      <path fill="none" d="M300-10c0,0,0,164,0,410c0,232,0,410,0,410"/>
+    </svg>
+  </div>
+</nav>
+
+  <span class="pajaroContainer">
+    <img src="images/logo.png" alt="">
+  </span>
+
+
+ <!--  <div class="lenguajes">
+    <span><a href="">ES</a></span>
+    <span>/</span>
+    <span><a href="">EN</a></span>
+  </div> -->
+
+<div id="fullpage" ng-controller="MainCtrl">
+    <div class="section">
+       <video preload="auto" loop="loop" id="pretzel-video" class="video-playing" autoplay=""  style="width:100%;">
+          <source data-src="videos/PortafolioG.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="section ">
+    <div class="slide" data-anchor="slide1">
+      <div class="contenido">
+        <h1 class="tlt" >Marketing Interactivo</h1>
+        <p>Traspasamos la barrera del Marketing tradicional desarrollando soluciones adaptadas a las necesidades del cliente, con el claro objetivo de aprovechar al máximo las características de los equipos usados, como su nombre lo dice, buscamos que el cliente interactúe con la marca, que tenga una experiencia vivencial que lo lleve a buscar más y más logrando con esto obtener soluciones que combinan las características del marketing tradicional con el interactivo haciéndolo imposible de olvidar.
+        Nuestras campañas publicitarias son de alto contenido audiovisual, acompañadas de aplicaciones que permiten a los usuarios interactuar por medio de desarrollos como: Realidad Aumentada, 3D, redes sociales, dispositivos móviles, hologramas, etc.
+        </p>
+        <video  controls>
+          <source src="videos/PortafolioMarketing.mp4" type="video/mp4">
+        </video>
+      </div>
+      </div>
+      <div class="slide"  data-anchor="slide2">
+      <div class="contenido" >
+          <h1  class="tlt">Realidad Aumentada</h1>
+            <p>La Realidad Aumentada (RA) consiste en sobreponer objetos, animaciones y/o videos desarrollados con diferentes técnicas gráficas y códigos de software sobre una imagen en tiempo real; es una tecnología que complementa la percepción e interacción con el mundo real y permite al usuario sumergirse en un mundo de posibilidades innovadoras que facilitan su entorno de diversas maneras.</p>
+            <ul>
+              <li>Ofrece una imagen moderna, renovadora de una marca o producto.</li>
+              <li>Permite impactar al público de una manera sorprendente.</li>
+              <li>Las campañas de Marketing Online tienen enormes posibilidades de generar mayor viralidad.</li>
+              <li>Facilita que los consumidores puedan interactuar y jugar con cualquier producto divirtiéndose.</li>
+              <li>Ayuda a que la gente interactúe generando un altísimo poder de recordación en lugar de permanecer pasiva.</li>
+              <li>Permite una mayor conexión entre la marca y el producto, inolvidable.</li>
+              <li>Combina el mundo Online con el OffLine, creando una experiencia absolutamente real, enriquecedora. </li>
+              <li>Transmite información al consumidor directamente en el punto de venta</li>
+            </ul>
+             <video  controls>
+              <source src="videos/RA.mp4" type="video/mp4">
+            </video>
+        </div>
+
+      </div>
+       <div class="slide"  data-anchor="slide3">
+      <div class="contenido" >
+          <h1  class="tlt">Tótem Interactivo</h1>
+          
+          <ul>
+              <li> Alta definición.</li>
+              <li>Medidas Proyección: Aprox. 2.5 mts X 2 mts (según altura de proyección).</li>
+              <li> Proyector 4000 Lúmenes.</li>
+              <li>Cámaras censora de movimiento.</li>
+              <li>Montaje y desmontaje de Equipos.</li>
+              <li>Estructura Metálica para soportar toda la infraestructura en techo o pared.</li>
+              <li>Distancia máxima de Proyección (Proyector - Superficie): 8 mts </li>
+              <li>Sistema de Reproducción de Audio (MP3). </li>
+              <li>Personalización de efecto prediseñado con el tema a elección: libro, juego, rompecabezas etc.</li>
+              <li> Acompañamiento de Técnico Especialista.</li>
+            </ul>
+            <video   controls>
+          <source src="videos/Tottem.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+       <div class="slide"  data-anchor="slide4">
+      <div class="contenido" >
+          <h1  class="tlt">Mapping</h1>
+          <ul>
+            <li>Alta definición.</li>
+            <li>Medidas: Aprox.  1.2 mts X 0.40 mts para un solo proyector; para superficies <br> más grandes se hará la instalación de los proyectores necesarios para aumentar su tamaño.</li>
+            <li>Proyector 4000-6000-18000 Lúmenes.</li>
+            <li>Estructura Metálica para soportar toda la infraestructura en techo o pared.</li>
+            <li>Montaje y desmontaje durante la actividad.</li>
+            <li>Tecnología de Luz Blanca a Base de LED.</li>
+            <li>Sistema de Reproducción de Audio (MP3).</li>
+          </ul>
+
+            <video   controls>
+          <source src="videos/mapping.mp4" type="video/mp4">
+        </video>
+        </div>
+      </div>
+      <div class="slide"  data-anchor="slide4">
+      <div class="contenido" >
+          <h1  class="tlt">Pirámide Holográfica</h1>
+          
+          <ul>
+            <li>Alta definición.</li>
+            <li>Medidas:  Aprox. ALTO 22 cms X LARGO 51 cms X ANCHO 33 cms</li>
+            <li>Monitor con tecnología de optimización de videos y efectos de animación.</li>
+            <li> Estructura metálica especial para manejo de productos físicos en el interior.</li>
+            <li>Tecnología de Luz Blanca a Base de LED</li>
+            <li>Sistema de Reproducción de Audio (MP3) </li>
+            <li>Pirámide especial para retroproyección</li>
+            <li> Base Metálica - Medidas: 1.20 mts X 51 cms X 33 cms con dos (2) repisas de vidrio para publicidad.</li>
+          </ul>
+
+            <video   controls>
+          <source src="videos/Pyramid.mp4" type="video/mp4">
+        </video>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="slide" data-anchor="slide1">
+        <div class="contenido">
+          <h1  class="tlt">Agencia </h1>
+          <p>Construimos puentes para establecer relaciones largas y significativas duraderas en el tiempo por medio de campañas con alto poder de recordación e impacto que generen valor para los consumidores, las marcas y la sociedad.
+Creamos lazos entre las personas, comunicamos ideas para establecer relaciones de largo plazo con los clientes, innovamos con campañas BTL y ATL, Marketing 360º (radio, televisión y gráfica, enlaces web, campaña de e-mails, correo directo, redes sociales) con experiencias de marca tecnológicas e innovadoras, sin dejar a un lado el impacto que genera en medios tradicionales o masivos la publicidad convencional.
+Realizamos, luego de estar construido el puente y fortalecidos los lazos; materializamos, los deseos de nuestros clientes con despliegues de acciones street marketing y técnicas interactivas, acciones que acerquen el producto o servicios al consumidor en puntos de venta, que logren captar clientes nuevos, conservar los antiguos y como resultado se obtenga un aumento en las ventas.
+</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+     // Nombreunction(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+     //   (A[].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+     //   r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+     // Ubicaciónow,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+     //   ga('cnsaje', 'UA-XXXXX-X');
+     //   ga('Enviar', 'pageview');
+
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/fullpage.js/jquery.fullPage.js"></script>
+    <script src="/bower_components/fullpage.js/vendors/jquery.easings.min.js"></script>
+    <script src="/bower_components/fullpage.js/vendors/jquery.slimscroll.min.js"></script>
+    <script src="/bower_components/letteringjs/jquery.lettering.js"></script>
+    <script src="/bower_components/snap.svg/dist/snap.svg-min.js"></script>
+    <script src="/bower_components/textillate/jquery.textillate.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <script>
+        try {
+            $ = jQuery = module.exports;
+
+        } catch(e) {}
+    </script>
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+         <script src="scripts/classie.js"></script>
+        <!-- endbuild -->
+
+          <script type="text/javascript">
+    $(document).ready(function() {
+
+      $('.sound-controls').on('click', 'li', function(){
+        $('this').find('video').get(0).muted = true;
+        alert('hola');
+      })
+
+
+      $('#fullpage').fullpage({
+        'verticalCentered': false,
+        'css3': true,
+        'sectionsColor': ['#003781', '#ff6c00','#44cc44'],
+        'navigation': true,
+        'navigationPosition': 'right',
+        // 'scrollOverflow': true,
+        anchors:['inicio', 'marketing', 'agencia'],
+        onLeave: function(index, newIndex, direction){
+          // blink();
+           var leavingSection = $(this);
+
+           $.fn.fullpage.silentMoveTo(index, 0);
+           // $.fn.fullpage.moveSlideLeft();
+           console.log(newIndex);
+
+           $('video').get(0).pause();
+
+           $('.tlt').textillate('start');
+
+            //after leaving section 2
+            // if(index == 2 && direction =='down'){
+            //     alert("Going to section 3!");
+            // }
+
+            // else if(index == 2 && direction == 'up'){
+            //     alert("Going to section 1!");
+            // }
+        },
+        onSlideLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex){
+            // var leavingSlide = $(this);
+            // video = leavingSlide.find('video').get(0);
+
+            // //leaving the first slide of the 2nd Section to the right
+            // if( index == 3 && slideIndex == 0 ){
+            //    $('#transporte-video').get(0).pause();
+            // }
+            //  if( index == 3 && nextSlideIndex == 0 ){
+            //    $('#transporte-video').get(0).play();
+            // }
+            // if( index == 4 && slideIndex == 0 ){
+            //    $('#ventas-video').get(0).pause();
+            // }
+            //  if( index == 4 && nextSlideIndex == 0 ){
+            //    $('#ventas-video').get(0).play();
+            // }
+
+
+
+                $('.tlt').textillate('start');
+            // else if(nextSlideIndex == 0 ){
+            //    $(this).find('video').get(0).play();
+            //    console.log( $(this).find('video'));
+            // }
+        }
+      });
+    });
+
+  //     var s = new Snap('.pajaro');
+
+
+  //   Snap.load('images/logo.svg', function (pajaro) {
+  //     cabeza = pajaro.selectAll('.cabeza');
+  //     ala = pajaro.selectAll('.ala');
+  //     chispas = pajaro.selectAll('.chispas');
+
+  //   s.append(pajaro);    //Now we add the SVG element to the page
+  //   $('span').hover( hoverover, hoverout );
+  // });
+  //   var j = Snap.select('.pajaro');
+
+  //   var hoverover = function() {
+  //     cabeza.animate({ transform: 't200,-50' }, 100,  mina.elastic);
+  //     ala.animate({transform:'t100,50r2t-100,0'},100, mina.elastic);
+  //     // chispas.animate({ transform: 't0, 0' }, 100,  mina.elastic);
+  //   };
+  //   var hoverout = function() {
+  //     cabeza.animate({ transform: 't0t,0' }, 500, mina.elastic );
+  //     ala.animate({transform:'r0, 0'},500, mina.elastic);
+  //     // chispas.animate({ transform: 't50t,100' }, 100, mina.elastic );
+  //   };
+
+  //     function blink(){
+  //      cabeza.animate({ transform: 't200,-50' }, 100, mina.elastic, function(){
+  //       cabeza.animate({ transform: 't0t,0' }, 500, mina.elastic );
+  //     });
+  //       ala.animate({transform:'t100,50r2t-100,0'}, 100, mina.elastic, function(){
+  //       ala.animate({transform:'r0, 0'}, 500, mina.elastic );
+  //     });
+  //   };
+
+    // Recall blink method once every 3 seconds
+
+    // setInterval(blink, 3000);
+
+
+
+  </script>
+
+  <script>
+      (function() {
+
+        function SVGMenu( el, options ) {
+          this.el = el;
+          this.init();
+        }
+
+        SVGMenu.prototype.init = function() {
+          this.trigger = this.el.querySelector( 'button.menu__handle' );
+          this.shapeEl = this.el.querySelector( 'div.morph-shape' );
+
+          var s = Snap( this.shapeEl.querySelector( 'svg' ) );
+          this.pathEl = s.select( 'path' );
+          this.paths = {
+            reset : this.pathEl.attr( 'd' ),
+            open : this.shapeEl.getAttribute( 'data-morph-open' ),
+            close : this.shapeEl.getAttribute( 'data-morph-close' )
+          };
+
+          this.isOpen = false;
+
+          this.initEvents();
+        };
+
+        SVGMenu.prototype.initEvents = function() {
+          this.trigger.addEventListener( 'click', this.toggle.bind(this) );
+        };
+
+        SVGMenu.prototype.toggle = function() {
+          var self = this;
+
+          if( this.isOpen ) {
+            classie.remove( self.el, 'menu--anim' );
+            setTimeout( function() { classie.remove( self.el, 'menu--open' ); }, 250 );
+            $('.fp-controlArrow.fp-prev').fadeIn();
+
+          }
+          else {
+            classie.add( self.el, 'menu--anim' );
+            setTimeout( function() { classie.add( self.el, 'menu--open' );  }, 250 );
+             $('.fp-controlArrow.fp-prev').fadeOut();
+          }
+          this.pathEl.stop().animate( { 'path' : this.isOpen ? this.paths.close : this.paths.open }, 350, mina.easeout, function() {
+            self.pathEl.stop().animate( { 'path' : self.paths.reset }, 800, mina.elastic );
+          } );
+
+          this.isOpen = !this.isOpen;
+        };
+
+        new SVGMenu( document.getElementById( 'menu' ) );
+
+      })();
+    </script>
+    <script>
+      $(function () {
+        $('.tlt').textillate({ in: { effect: 'rollIn' } });
+      })
+    </script>
+</body>
+</html>
