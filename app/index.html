@@ -94,7 +94,7 @@
        <div class="slide"  data-anchor="slide3">
       <div class="contenido" >
           <h1  class="tlt">Tótem Interactivo</h1>
-          
+
           <ul>
               <li> Alta definición.</li>
               <li>Medidas Proyección: Aprox. 2.5 mts X 2 mts (según altura de proyección).</li>
@@ -133,7 +133,7 @@
       <div class="slide"  data-anchor="slide4">
       <div class="contenido" >
           <h1  class="tlt">Pirámide Holográfica</h1>
-          
+
           <ul>
             <li>Alta definición.</li>
             <li>Medidas:  Aprox. ALTO 22 cms X LARGO 51 cms X ANCHO 33 cms</li>
@@ -224,91 +224,26 @@ Realizamos, luego de estar construido el puente y fortalecidos los lazos; materi
         // 'scrollOverflow': true,
         anchors:['inicio', 'marketing', 'agencia'],
         onLeave: function(index, newIndex, direction){
-          // blink();
+
            var leavingSection = $(this);
 
            $.fn.fullpage.silentMoveTo(index, 0);
-           // $.fn.fullpage.moveSlideLeft();
+
            console.log(newIndex);
 
            $('video').get(0).pause();
 
            $('.tlt').textillate('start');
 
-            //after leaving section 2
-            // if(index == 2 && direction =='down'){
-            //     alert("Going to section 3!");
-            // }
 
-            // else if(index == 2 && direction == 'up'){
-            //     alert("Going to section 1!");
-            // }
         },
         onSlideLeave: function( anchorLink, index, slideIndex, direction, nextSlideIndex){
-            // var leavingSlide = $(this);
-            // video = leavingSlide.find('video').get(0);
-
-            // //leaving the first slide of the 2nd Section to the right
-            // if( index == 3 && slideIndex == 0 ){
-            //    $('#transporte-video').get(0).pause();
-            // }
-            //  if( index == 3 && nextSlideIndex == 0 ){
-            //    $('#transporte-video').get(0).play();
-            // }
-            // if( index == 4 && slideIndex == 0 ){
-            //    $('#ventas-video').get(0).pause();
-            // }
-            //  if( index == 4 && nextSlideIndex == 0 ){
-            //    $('#ventas-video').get(0).play();
-            // }
-
-
 
                 $('.tlt').textillate('start');
-            // else if(nextSlideIndex == 0 ){
-            //    $(this).find('video').get(0).play();
-            //    console.log( $(this).find('video'));
-            // }
+
         }
       });
     });
-
-  //     var s = new Snap('.pajaro');
-
-
-  //   Snap.load('images/logo.svg', function (pajaro) {
-  //     cabeza = pajaro.selectAll('.cabeza');
-  //     ala = pajaro.selectAll('.ala');
-  //     chispas = pajaro.selectAll('.chispas');
-
-  //   s.append(pajaro);    //Now we add the SVG element to the page
-  //   $('span').hover( hoverover, hoverout );
-  // });
-  //   var j = Snap.select('.pajaro');
-
-  //   var hoverover = function() {
-  //     cabeza.animate({ transform: 't200,-50' }, 100,  mina.elastic);
-  //     ala.animate({transform:'t100,50r2t-100,0'},100, mina.elastic);
-  //     // chispas.animate({ transform: 't0, 0' }, 100,  mina.elastic);
-  //   };
-  //   var hoverout = function() {
-  //     cabeza.animate({ transform: 't0t,0' }, 500, mina.elastic );
-  //     ala.animate({transform:'r0, 0'},500, mina.elastic);
-  //     // chispas.animate({ transform: 't50t,100' }, 100, mina.elastic );
-  //   };
-
-  //     function blink(){
-  //      cabeza.animate({ transform: 't200,-50' }, 100, mina.elastic, function(){
-  //       cabeza.animate({ transform: 't0t,0' }, 500, mina.elastic );
-  //     });
-  //       ala.animate({transform:'t100,50r2t-100,0'}, 100, mina.elastic, function(){
-  //       ala.animate({transform:'r0, 0'}, 500, mina.elastic );
-  //     });
-  //   };
-
-    // Recall blink method once every 3 seconds
-
-    // setInterval(blink, 3000);
 
 
 
